@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/image.jpg") no-repeat center;
+    font-family: "Playfair Display", serif;
+    width: 500px;
+    height: 500px;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+    
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgb(183, 215, 223);
+    text-align: center;
+}
+
+form {
+    padding: 30px;
+    background-color: rgb(139, 134, 133);
+    box-shadow: 0px 20px 60px rgba(114, 113, 114, 0.5);
+    border-radius: 10px;
+    display: flex;
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid rgba(144, 147, 148, 0.5); 
+    width: 80%;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 20px; 
+    background-color: rgb(199, 191, 198);
+    color: black;
+  
+  }
+
+.submit{
+    margin-left: 10px;
+    background-color: rgb(41, 38, 204);
+    color: white;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24 px;
+}
+
+.show-anime {
+    font-size: 18px;
+    background-color: rgb(55, 37, 58);
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 2;
+    border-left: 3px solid rgb(196, 173, 45);
+    box-shadow: 0px 20px 60px rgba(70, 44, 70, 0.5);
+    border-radius: 5px;
+    color: azure;
+}
+
+.hidden {
+    display: none;
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+    
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    color: azure;
+}
+
+a {
+    color: rgb(117, 193, 228);
+    text-decoration: none;
+}
+
+.show-anime strong {
+    color: rgb(94, 151, 216); 
+}
