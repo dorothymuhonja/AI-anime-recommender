@@ -1,8 +1,12 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/image.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/anime.jpeg") no-repeat center;
     font-family: "Playfair Display", serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 500px;
     height: 500px;
+    
 }
 
 .container {
