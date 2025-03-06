@@ -11,7 +11,7 @@ function generateAnime(event) {
 
     event.preventDefault();
 
-    let instructionInput = document.querySelector("#user-instructions");
+    let instructionInput = document.querySelector("#instructions");
     
     let apiKey = "e0ec6b874369tb90f96386aaf483o95a";
     let context = "You are an anime expert and enjoy recommending anime. Your mission is to generate five best anime in a specific genre or year in basic html. Separate each line with a <br/> and number each line. Make sure to follow the user instructions. Sign the anime with  'SheCodes AI' inside a <strong> element.";
