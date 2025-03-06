@@ -18,7 +18,7 @@ function generateAnime(event) {
     let prompt = `User instructions: List the best anime in ${instructionInput.value}`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-    axios.get(apiUrl).then(displayPoem);
+    axios.get(apiUrl).then(displayAnime);
 
 }
 
