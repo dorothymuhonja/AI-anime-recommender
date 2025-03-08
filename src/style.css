@@ -1,7 +1,7 @@
 body {
     background-color: beige;
     font-family: "Playfair Display", serif;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ header {
     margin-bottom: 30px;
 }
 
-h1 {
+h2 {
     text-align: center;
 }
 
@@ -100,5 +100,5 @@ a {
 }
 
 .show-anime strong {
-    color: rgb(94, 151, 216); 
+    color: rgb(199, 191, 198); 
 }

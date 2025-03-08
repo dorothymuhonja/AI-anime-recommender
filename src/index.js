@@ -14,7 +14,7 @@ function generateAnime(event) {
     let instructionInput = document.querySelector("#instructions");
     
     let apiKey = "e0ec6b874369tb90f96386aaf483o95a";
-    let context = "You are an anime expert and enjoy recommending anime. Your mission is to generate 10 anime recommendations in a specific genre or year in basic html. Separate each line with a <br/> and number each line. Make sure to follow the user instructions. Sign the end of the list with  'SheCodes AI' inside a <strong> element. Add a title";
+    let context = "You are an anime expert and enjoy recommending anime. Your mission is to generate 5 anime recommendations in a specific genre or year in basic html. Separate each line with a <br/> and number each line. Make sure to follow the user instructions. Sign the end of the list with  'SheCodes AI' inside a <strong> element. Add a title in <h2>";
     let prompt = `User instructions: List the best anime in ${instructionInput.value}`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
